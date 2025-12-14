@@ -307,7 +307,7 @@ class AssociationRulesMiner:
 
     def mine_frequent_itemsets(
         self,
-        min_support: float = 0.01,
+        min_support: float = 0.02,
         max_len: int = None,
         use_colnames: bool = True,
     ) -> pd.DataFrame:

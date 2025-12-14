@@ -1,0 +1,86 @@
+[
+  {
+    "scenario": "Baseline",
+    "description": "Cấu hình gốc - Support thấp, Lift thấp",
+    "min_support": 0.01,
+    "min_confidence": 0.3,
+    "min_lift": 1.2,
+    "num_rules": 1794,
+    "avg_support": 0.0138,
+    "avg_confidence": 0.5352,
+    "avg_lift": 13.5702,
+    "max_lift": 74.567,
+    "execution_time_seconds": 72.51,
+    "top_antecedents": {
+      "DOTCOM POSTAGE": 39,
+      "DOTCOM POSTAGE, JUMBO BAG RED RETROSPOT": 20,
+      "CHARLOTTE BAG PINK POLKADOT": 17,
+      "WOODLAND CHARLOTTE BAG": 17,
+      "STRAWBERRY CHARLOTTE BAG": 16
+    },
+    "output_file": "data/processed/parameter_tuning/rules_Baseline.csv"
+  },
+  {
+    "scenario": "Medium_Quality",
+    "description": "Tăng Support lên 2%, Lift lên 1.5 - Lọc bỏ sản phẩm ít phổ biến",
+    "min_support": 0.02,
+    "min_confidence": 0.3,
+    "min_lift": 1.5,
+    "num_rules": 175,
+    "avg_support": 0.0249,
+    "avg_confidence": 0.4987,
+    "avg_lift": 8.8422,
+    "max_lift": 27.2003,
+    "execution_time_seconds": 12.02,
+    "top_antecedents": {
+      "LUNCH BAG RED RETROSPOT": 8,
+      "LUNCH BAG  BLACK SKULL.": 8,
+      "JUMBO STORAGE BAG SUKI": 8,
+      "JUMBO SHOPPER VINTAGE RED PAISLEY": 7,
+      "LUNCH BAG CARS BLUE": 6
+    },
+    "output_file": "data/processed/parameter_tuning/rules_Medium_Quality.csv"
+  },
+  {
+    "scenario": "High_Quality",
+    "description": "Tăng Support lên 2%, Lift lên 2.0 - Chỉ giữ mối quan hệ chặt chẽ",
+    "min_support": 0.02,
+    "min_confidence": 0.4,
+    "min_lift": 2.0,
+    "num_rules": 135,
+    "avg_support": 0.0253,
+    "avg_confidence": 0.5414,
+    "avg_lift": 9.5163,
+    "max_lift": 27.2003,
+    "execution_time_seconds": 10.45,
+    "top_antecedents": {
+      "JUMBO BAG WOODLAND ANIMALS": 5,
+      "LUNCH BAG CARS BLUE": 5,
+      "LUNCH BAG SUKI DESIGN ": 5,
+      "LUNCH BAG SPACEBOY DESIGN ": 5,
+      "LUNCH BAG WOODLAND": 5
+    },
+    "output_file": "data/processed/parameter_tuning/rules_High_Quality.csv"
+  },
+  {
+    "scenario": "Very_High_Quality",
+    "description": "Support 3%, Lift 2.5 - Rất chặt chẽ, chỉ top combos",
+    "min_support": 0.03,
+    "min_confidence": 0.5,
+    "min_lift": 2.5,
+    "num_rules": 15,
+    "avg_support": 0.0337,
+    "avg_confidence": 0.6595,
+    "avg_lift": 11.5732,
+    "max_lift": 15.8653,
+    "execution_time_seconds": 9.03,
+    "top_antecedents": {
+      "GREEN REGENCY TEACUP AND SAUCER": 2,
+      "PINK REGENCY TEACUP AND SAUCER": 2,
+      "ROSES REGENCY TEACUP AND SAUCER ": 2,
+      "GARDENERS KNEELING PAD CUP OF TEA ": 1,
+      "GARDENERS KNEELING PAD KEEP CALM ": 1
+    },
+    "output_file": "data/processed/parameter_tuning/rules_Very_High_Quality.csv"
+  }
+]
