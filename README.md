@@ -82,10 +82,10 @@ Chúng tôi đã tiến hành **4 scenarios** với các ngưỡng tham số kh�
 
 | Scenario | min_support | min_lift | Số Rules | Lift TB | Thời gian | Đánh giá |
 |----------|-------------|----------|----------|---------|-----------|----------|
-| **Baseline** | 0.01 (1%) | 1.2 | 1,794 | 13.57 | 72.5s | ⚠️ Quá nhiều, khó áp dụng |
-| **Medium Quality** | 0.02 (2%) | 1.5 | **175** | **8.84** | **12.0s** | ✅ Tối ưu, dễ quản lý |
-| **High Quality** | 0.02 (2%) | 2.0 | 135 | 9.52 | 10.5s | ✅ Chất lượng cao |
-| **Very High Quality** | 0.03 (3%) | 2.5 | 15 | 11.57 | 9.0s | ⚡ Chỉ top combos |
+| **Baseline** | 0.01 (1%) | 1.2 | 1,794 | 13.57 | 72.5s |  Quá nhiều, khó áp dụng |
+| **Medium Quality** | 0.02 (2%) | 1.5 | **175** | **8.84** | **12.0s** |  Tối ưu, dễ quản lý |
+| **High Quality** | 0.02 (2%) | 2.0 | 135 | 9.52 | 10.5s |  Chất lượng cao |
+| **Very High Quality** | 0.03 (3%) | 2.5 | 15 | 11.57 | 9.0s |  Chỉ top combos |
 
 **Kết quả quan trọng:**
 - Giảm từ 1,794 → 175 rules (**-90.2%**)
@@ -105,7 +105,7 @@ Giống như việc dọn dẹp tủ quần áo: khi bạn chỉ giữ lại nh�
 
 ---
 
-## 🏆 5 Phát Hiện Vàng Từ 175 Quy Luật
+##  5 Phát Hiện Vàng Từ 175 Quy Luật
 
 Với 175 quy luật chất lượng cao, chúng tôi tìm ra 5 insights quan trọng mà bất kỳ người quản lý cửa hàng nào cũng có thể áp dụng ngay:
 
@@ -123,9 +123,9 @@ Bạn có biết trong một tập thể, luôn có người đóng vai trò k�
 Giống như trong một nhóm bạn, luôn có người "trung tâm" mà mọi người đều biết. Nếu người đó tổ chức tiệc, hầu hết mọi người sẽ đến. Nếu người đó vắng mặt, cả nhóm tan rã.
 
 **Áp dụng:**
-- ✅ Đặt sản phẩm này ở vị trí **dễ thấy nhất** (đầu lối đi, cuối kệ hàng)
-- ✅ **Không bao giờ để hết hàng** vì nó ảnh hưởng đến doanh số của nhiều sản phẩm khác
-- ✅ Tạo nhiều combo xoay quanh sản phẩm này
+-  Đặt sản phẩm này ở vị trí **dễ thấy nhất** (đầu lối đi, cuối kệ hàng)
+-  **Không bao giờ để hết hàng** vì nó ảnh hưởng đến doanh số của nhiều sản phẩm khác
+-  Tạo nhiều combo xoay quanh sản phẩm này
 
 **Tác động:** Tăng 10-15% số giao dịch có mua thêm sản phẩm kèm theo.
 
@@ -144,14 +144,14 @@ Con số này cao gấp **27 lần** so với việc mua ngẫu nhiên!
 Giống như đôi giày - khi bạn mua chiếc giày trái, bạn chắc chắn sẽ mua chiếc giày phải. Hoặc như bánh mì và bơ - chúng được sinh ra để đi cùng nhau.
 
 **Danh sách các cặp "song sinh" khác:**
-- ☕ **Teacup & Saucer**: Tách màu hồng ↔ Tách màu xanh (xuất hiện cùng 82% trường hợp)
-- 🎒 **Lunch Box**: Spaceboy ↔ Dolly Girl (xuất hiện cùng 61% trường hợp)
-- 👜 **Charlotte Bag**: Woodland ↔ Strawberry (xuất hiện cùng 55% trường hợp)
+-  **Teacup & Saucer**: Tách màu hồng ↔ Tách màu xanh (xuất hiện cùng 82% trường hợp)
+-  **Lunch Box**: Spaceboy ↔ Dolly Girl (xuất hiện cùng 61% trường hợp)
+-  **Charlotte Bag**: Woodland ↔ Strawberry (xuất hiện cùng 55% trường hợp)
 
 **Áp dụng:**
-- ✅ Đặt 2 sản phẩm **cạnh nhau** trên kệ
-- ✅ Tạo combo: *"Mua 2 giảm 15%"*
-- ✅ Hệ thống gợi ý: *"Khách hàng mua sản phẩm này thường mua thêm..."*
+-  Đặt 2 sản phẩm **cạnh nhau** trên kệ
+-  Tạo combo: *"Mua 2 giảm 15%"*
+-  Hệ thống gợi ý: *"Khách hàng mua sản phẩm này thường mua thêm..."*
 
 **Tác động:** Tăng 20-30% khả năng khách mua thêm sản phẩm thứ hai.
 
@@ -162,10 +162,10 @@ Giống như đôi giày - khi bạn mua chiếc giày trái, bạn chắc chắ
 Một phát hiện bất ngờ: **74% quy luật** liên quan đến từ khóa **"BAG"** (túi).
 
 **Phát hiện chi tiết:**
-- 🎒 **BAG** (Túi): 74.3% quy luật
-- 🔴 **RED** (Màu đỏ): 40.6% quy luật
-- 🍱 **LUNCH** (Hộp cơm): 29.1% quy luật
-- 💗 **PINK** (Màu hồng): 28.6% quy luật
+-  **BAG** (Túi): 74.3% quy luật
+-  **RED** (Màu đỏ): 40.6% quy luật
+-  **LUNCH** (Hộp cơm): 29.1% quy luật
+-  **PINK** (Màu hồng): 28.6% quy luật
 
 **Giải thích:**
 Khách hàng có xu hướng mua túi theo "bộ" hoặc "theme":
@@ -177,9 +177,9 @@ Khách hàng có xu hướng mua túi theo "bộ" hoặc "theme":
 Giống như khi bạn mua áo, bạn thường mua nhiều màu cùng lúc. Hoặc khi mua quà, bạn thích mua theo "set" để tặng nhiều người.
 
 **Áp dụng:**
-- ✅ Tạo **"Góc túi"** riêng với đầy đủ màu sắc và size
-- ✅ Thiết kế combo: *"Combo gia đình: Túi mẹ + Túi con"*
-- ✅ Sắp xếp theo màu sắc để khách dễ chọn
+-  Tạo **"Góc túi"** riêng với đầy đủ màu sắc và size
+-  Thiết kế combo: *"Combo gia đình: Túi mẹ + Túi con"*
+-  Sắp xếp theo màu sắc để khách dễ chọn
 
 **Tác động:** Tăng 15-20% giá trị đơn hàng trung bình khi khách vào "góc túi".
 
@@ -191,9 +191,9 @@ Không phải quy luật nào cũng đáng tin cậy như nhau.
 
 **Phát hiện:**
 Trong 175 quy luật của chúng tôi:
-- 👍 **73 quy luật** có độ tin cậy ≥ 50% (tức là xác suất xảy ra ≥ 50%)
-- ⭐ **13 quy luật** có độ tin cậy ≥ 70% (rất đáng tin)
-- 🌟 **1 quy luật** có độ tin cậy ≥ 90% (gần như chắc chắn)
+-  **73 quy luật** có độ tin cậy ≥ 50% (tức là xác suất xảy ra ≥ 50%)
+-  **13 quy luật** có độ tin cậy ≥ 70% (rất đáng tin)
+-  **1 quy luật** có độ tin cậy ≥ 90% (gần như chắc chắn)
 
 **Ví dụ đời thường:**
 Giống như dự báo thời tiết:
@@ -201,9 +201,9 @@ Giống như dự báo thời tiết:
 - Nếu dự báo "30% khả năng mưa", bạn có thể cân nhắc
 
 **Áp dụng:**
-- ✅ **Ưu tiên đầu tư** vào 13 quy luật có độ tin cậy ≥ 70%
-- ✅ Tích hợp 73 quy luật tin cậy vào **hệ thống gợi ý tự động**
-- ✅ Huấn luyện nhân viên tư vấn dựa trên quy luật này
+-  **Ưu tiên đầu tư** vào 13 quy luật có độ tin cậy ≥ 70%
+-  Tích hợp 73 quy luật tin cậy vào **hệ thống gợi ý tự động**
+-  Huấn luyện nhân viên tư vấn dựa trên quy luật này
 
 **Tác động:** Tăng 5-10% tỷ lệ chuyển đổi (conversion rate).
 
@@ -215,15 +215,15 @@ Có những combo xuất hiện **nhiều hơn** những combo khác.
 
 **Top 3 combo phổ biến nhất:**
 
-1. 👜 **Túi hồng chấm bi ↔ Túi đỏ chấm bi**
+1.  **Túi hồng chấm bi ↔ Túi đỏ chấm bi**
    - Xuất hiện trong **4.36%** giao dịch (khoảng 1 trong 23 giao dịch)
    - Độ tin cậy: 68%
 
-2. ☕ **Tách xanh ↔ Tách hoa hồng**
+2.  **Tách xanh ↔ Tách hoa hồng**
    - Xuất hiện trong **3.88%** giao dịch
    - Độ tin cậy: 75%
 
-3. 🎒 **Túi Suki ↔ Túi đỏ chấm bi**
+3.  **Túi Suki ↔ Túi đỏ chấm bi**
    - Xuất hiện trong **3.87%** giao dịch
    - Độ tin cậy: 62%
 
@@ -233,19 +233,19 @@ Nếu cửa hàng có 10,000 giao dịch/tháng:
 - Nếu hết hàng một trong hai → **Mất 436 cơ hội bán hàng!**
 
 **Áp dụng:**
-- ✅ Đảm bảo **luôn có sẵn hàng** cho top 5 combo
-- ✅ Chạy khuyến mãi: *"Combo tuần này: Giảm 20%"* để tăng độ phủ
-- ✅ Theo dõi tồn kho hàng ngày cho các sản phẩm này
+-  Đảm bảo **luôn có sẵn hàng** cho top 5 combo
+-  Chạy khuyến mãi: *"Combo tuần này: Giảm 20%"* để tăng độ phủ
+-  Theo dõi tồn kho hàng ngày cho các sản phẩm này
 
 **Tác động:** Giảm 5-10% mất doanh thu do hết hàng.
 
 ---
 
-## 🎯 Từ Phát Hiện Đến Hành Động - Làm Gì Tiếp Theo?
+##  Từ Phát Hiện Đến Hành Động - Làm Gì Tiếp Theo?
 
 Kiến thức không có giá trị nếu không được áp dụng. Đây là lộ trình hành động cụ thể:
 
-### **🔥 NGAY LẬP TỨC (Tuần này):**
+### ** NGAY LẬP TỨC (Tuần này):**
 
 #### **Hành động 1: Sắp xếp lại vị trí sản phẩm**
 - Đưa **JUMBO BAG RED RETROSPOT** lên vị trí đầu giá hoặc gần lối vào
@@ -297,7 +297,7 @@ Huấn luyện nhân viên tư vấn theo **script**:
 
 ---
 
-### **🚀 DÀI HẠN (Quý tới):**
+### ** DÀI HẠN (Quý tới):**
 
 #### **Hành động 5: Tích hợp công nghệ**
 - Nếu có website: Thêm phần *"Khách hàng cũng mua"* dựa trên 73 quy luật tin cậy
@@ -310,7 +310,7 @@ Huấn luyện nhân viên tư vấn theo **script**:
 
 ---
 
-## 📊 Con Số Không Nói Dối - Tác Động Dự Kiến
+##  Con Số Không Nói Dối - Tác Động Dự Kiến
 
 Giả sử cửa hàng có:
 - **10,000 giao dịch/tháng**
@@ -333,7 +333,7 @@ Và con số này có thể cao hơn nếu áp dụng đồng thời và tối �
 
 ---
 
-## 🤔 Câu Chuyện Đằng Sau Con Số
+##  Câu Chuyện Đằng Sau Con Số
 
 ### **Tại sao Lift = 27.2 lại quan trọng?**
 
@@ -348,7 +348,7 @@ Khi chúng tôi nói **Lift = 27.2** cho cặp Wooden Heart ↔ Wooden Star, ngh
 Giống như việc:
 - Xác suất bạn đi xem phim ngày thường: 5%
 - Nhưng khi có người yêu rủ, xác suất tăng lên 80%
-- → Người yêu có "Lift" = 16 lần với việc đi xem phim 😊
+- → Người yêu có "Lift" = 16 lần với việc đi xem phim 
 
 ---
 
@@ -369,7 +369,7 @@ Chúng tôi đã tìm ra **20% quy luật vàng** đó!
 
 ---
 
-## ✨ Kết Luận - Từ Dữ Liệu Đến Trí Tuệ
+##  Kết Luận - Từ Dữ Liệu Đến Trí Tuệ
 
 Hành trình này không chỉ là về con số. Nó là về việc **hiểu khách hàng** ở một cấp độ sâu hơn.
 
@@ -399,7 +399,7 @@ Trong kinh doanh cũng vậy. Không cần theo dõi 1,000 KPI. Hãy tập trung
 
 ---
 
-## 📚 Phụ Lục - Thuật Ngữ Dễ Hiểu
+##  Phụ Lục - Thuật Ngữ Dễ Hiểu
 
 Vì đây là blog hướng tới người đọc không chuyên, đây là bảng giải thích nhanh:
 
@@ -413,7 +413,7 @@ Vì đây là blog hướng tới người đọc không chuyên, đây là bả
 
 ---
 
-## 🎁 Tặng Kèm - Checklist Hành Động
+##  Tặng Kèm - Checklist Hành Động
 
 **In ra và dán lên tường văn phòng:**
 
@@ -438,12 +438,4 @@ Vì đây là blog hướng tới người đọc không chuyên, đây là bả
 - [ ] Mở rộng sang sản phẩm khác
 
 ---
-
-*"Dữ liệu kể câu chuyện. Người thông minh lắng nghe. Người thành công hành động."*
-
----
-
-**Người viết:** Nhóm Data Science - FIT DNU CONQUER  
-**Liên hệ:** shopping-cart-analysis@project  
-**Ngày xuất bản:** 14/12/2025
 
